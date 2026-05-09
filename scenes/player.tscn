@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://21vxh01vupwi"]
+
+[ext_resource type="Texture2D" uid="uid://dumn8fhxfech7" path="res://platformer-pack-1.1/Sprites/Characters/Default/character_yellow_idle.png" id="2_qhqgy"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lbhrr"]
+radius = 40.04997
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iywne"]
+size = Vector2(56, 56)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3vyb7"]
+
+[node name="player" type="CharacterBody2D" unique_id=812718177]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=7401689]
+texture = ExtResource("2_qhqgy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=411268709]
+position = Vector2(0, 6)
+shape = SubResource("CircleShape2D_lbhrr")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=1413841936]
+position = Vector2(-2, 27)
+shape = SubResource("RectangleShape2D_iywne")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=138814152]
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="." unique_id=1319565016]
+position = Vector2(31, 36)
+shape = SubResource("CircleShape2D_3vyb7")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="." unique_id=1334516358]
+position = Vector2(16, 54)
+shape = SubResource("CircleShape2D_3vyb7")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="." unique_id=615854872]
+position = Vector2(-21, 54)
+shape = SubResource("CircleShape2D_3vyb7")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="." unique_id=2086397343]
+position = Vector2(-30, 37)
+shape = SubResource("CircleShape2D_3vyb7")

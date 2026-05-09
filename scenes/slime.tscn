@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://jnj53t3xgydd"]
+
+[ext_resource type="Texture2D" uid="uid://b4q04kwgb52x2" path="res://platformer-pack-1.1/Sprites/Enemies/Default/slime_normal_rest.png" id="1_371uh"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_p57ef"]
+radius = 17.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_u5sy4"]
+radius = 22.022715
+
+[node name="slime" type="Area2D" unique_id=1310356863]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1578588853]
+texture = ExtResource("1_371uh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=752652334]
+visible = false
+position = Vector2(-12, 16)
+shape = SubResource("CircleShape2D_p57ef")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=1528403216]
+visible = false
+position = Vector2(12, 17)
+shape = SubResource("CircleShape2D_p57ef")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="." unique_id=755485090]
+visible = false
+position = Vector2(0, 12)
+shape = SubResource("CircleShape2D_u5sy4")

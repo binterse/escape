@@ -16,27 +16,33 @@ size = Vector2(56, 56)
 texture = ExtResource("2_qhqgy")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=411268709]
+visible = false
 position = Vector2(0, 6)
 shape = SubResource("CircleShape2D_lbhrr")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=1413841936]
+visible = false
 position = Vector2(-2, 27)
 shape = SubResource("RectangleShape2D_iywne")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=138814152]
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="." unique_id=1319565016]
+visible = false
 position = Vector2(31, 36)
 shape = SubResource("CircleShape2D_3vyb7")
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="." unique_id=1334516358]
+visible = false
 position = Vector2(16, 54)
 shape = SubResource("CircleShape2D_3vyb7")
 
 [node name="CollisionShape2D5" type="CollisionShape2D" parent="." unique_id=615854872]
+visible = false
 position = Vector2(-21, 54)
 shape = SubResource("CircleShape2D_3vyb7")
 
 [node name="CollisionShape2D6" type="CollisionShape2D" parent="." unique_id=2086397343]
+visible = false
 position = Vector2(-30, 37)
 shape = SubResource("CircleShape2D_3vyb7")

@@ -6,6 +6,8 @@ The game is intentionally simple: move through the level, avoid the slime enemie
 
 > Early hobby project. Not a finished or released game yet.
 
+![Escape game screenshot](https://github.com/user-attachments/assets/df8af96f-e85c-4b95-9b50-9b52ed492f6b)
+
 ## Status
 
 This project is under active development and currently contains rough edges, temporary code, and simple test levels.
